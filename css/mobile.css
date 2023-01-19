@@ -1,0 +1,354 @@
+@media (max-width: 768px) {
+     header {
+        width: 100vw;
+        height: 96px;
+        /* justify-content: space-around; */
+        justify-self: space-between;
+    }
+
+    .container {
+        width: 350px;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 80px auto;
+    }
+
+    .container .list ul {
+        flex-direction: column;
+        /* margin-top: -100px; */
+    }
+
+    .container .list ul li {
+        padding: 55px;
+    }
+
+    .container .list ul li a {
+        font-size: 35px;
+    }
+
+    .container .buttonss {
+        margin-bottom: 100px;
+        align-self: center;
+    }
+
+    .buttonss button {
+        width: 50vw;
+    }
+
+    header .nav {
+        position: fixed;
+        top: 0;
+        left: -550px;
+        flex-direction: column;
+        width: 500px;
+        height: 100vh;
+        background-color: white;
+        transition: 0.6s;
+    }
+
+    .rolling {
+        width: 100%;
+    }
+
+    header .nav.active{
+        left: 0;
+        transition: 0.9s;
+    }
+
+    .mobile-logo {
+        display: block;
+        margin-right: 50px;
+    }
+
+    .btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .container .logo {
+        display: none;
+    }
+
+    .close-bar {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    .main-section .equal h1 {
+        font-size: 63px !important;
+    }
+    
+    .main-section .equal h1 span{
+        color: #474b48;
+    }
+    
+    .main-section .equal p{
+        margin-top: 35px;
+    }
+
+    .main-div {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    .main-section .world .world-1 {
+        width: 600px;
+    }
+    
+    .main-section .world .world-1 h1 {
+        font-size: 70px;
+    }
+
+    #alt-section {
+        margin-top: 180px;
+        height: 900px;
+    }
+
+    .dark .fashion {
+        display: flex;
+        flex-direction: column;
+        max-width: 570px;
+        height: 165px;
+        margin: 43px auto;
+        justify-content: space-between;
+    }
+
+    .note {
+        margin-top: 20px;
+        width: 580px;
+        height: 165px;
+        text-align: start;
+    }
+    
+    .note h2 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+    
+    .note p {
+        font-size: 17px;
+        text-align: start;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+    .scrolls-by {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 130px;
+        overflow-y: hidden;
+    }
+
+    #alt-section-2 {
+        margin-top: 64px;
+        height: 758px;
+    }
+
+    #alt-section-2 .dark .long-card {
+        width: 600px;
+        height: 680px;
+        background-color: #ffffff;
+        margin: 58px auto;
+        border-radius: 17.52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        z-index: 2;
+    }
+
+    #alt-section-2 .dark .long-card .tailor {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 27px;
+        width: 473px;
+    }
+
+    #alt-section-2 .dark .long-card .tailor h2{
+        font-size: 27px;
+    }
+    
+    #alt-section-2 .dark .long-card .tailor p {
+        line-height: 1.3;
+        text-align: start;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    #alt-section-2 .dark .long-card .tight {
+        justify-self: center;
+        align-self: center;
+        margin-top: 30px;
+        width: 473px;
+        height: 370px;
+        position: relative;
+        overflow-y: hidden;
+    }
+
+    #alt-section-2 .dark .long-card .tailor button {
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        width: 459px;
+        height: 84px;
+        border: none;
+        margin-top: 25px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #000000;
+        margin-left: 50px;
+    }
+
+    #grid-cards {
+        max-width: 650px;
+    }
+    #grid-cards .g-cards {
+        margin-top: 65px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1rem;
+    }
+
+    #grid-cards .g-cards #card {
+        width: 320px;
+        height: 340px;
+        border-radius: 10px;
+        z-index: -1;
+    }
+    
+    #grid-cards .g-cards #card div {
+        width: 240px;
+        margin: 46px auto;
+    }
+
+    #grid-cards .g-cards #card div p {
+        font-size: 14px;
+        text-align: start;
+    }
+    
+    #grid-cards .g-cards #card div h1 {
+        margin-top: 26px;
+        font-size: 29px;
+    }
+    
+    .p2 {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 20px;
+    }
+
+    #alt-section-3 {
+        margin-top: 100px;
+        height: 951px;
+    }
+
+    .black .fashion {
+        display: flex;
+        flex-direction: column;
+        max-width: 650px;
+        height: 165px;
+        margin: 43px auto;
+        justify-content: space-between;
+    }
+
+    .scrolls-click {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 105px;
+        margin-left: -150px;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+
+    #community .black-2 .black-contain {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    #community .black-2 h1 {
+        font-size: 95px;
+        margin-top: 35px;
+    }
+    
+    #community .black-2 .dis-twi {
+        display: flex;
+        margin: 15px;
+        justify-content: space-between;
+    }
+    
+    #community .black-2 .dis-twi .empty {
+        display: none;
+    }
+    
+    #community .black-2 .dis-twi .taken {
+        display: flex;
+        flex-direction: column;
+        width: 520px;
+        height: 155px;
+        margin-top: -30px;
+    }
+    
+    #community .black-2 .dis-twi .taken p {
+        text-align: start;
+        margin-top: 45px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    #faqs .questions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #faqs .questions .faq-h1 {
+        width: 490px;
+        font-size: 40px;
+    }
+    
+    #faqs .questions .faq-s {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-top: 35px;
+        align-items: center;
+    }
+
+    #faqs .questions .faq-h1 {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .quest {
+        margin: auto 0;
+        height: 102.47px;
+        width: 550px;
+        padding-top: 33px;
+        font-size: 24px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 36px;
+        color: #212529;
+        border-top: 1px solid #D4D5D4;
+    }
+
+    #contact {
+        margin-top: 180px;
+    }
+
+    #contact .main-contact {
+        width: 650px;
+        margin: 0 auto;
+    }
+    
+    
+}
