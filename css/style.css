@@ -494,6 +494,7 @@ header {
 .rolling {
     width: 98vw;
     margin-top: 60px;
+    /* display: flex; */
     justify-content: start;
 }
 
