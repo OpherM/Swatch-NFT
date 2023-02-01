@@ -346,8 +346,23 @@
 }
 
 @media screen and (max-width: 679px) {
-    body {
-        overflow-x: hidden;
+    .container {
+        width: 79%;
+    }
+
+    header .nav {
+        position: fixed;
+        top: 0;
+        left: -550px;
+        flex-direction: column;
+        width: 85%;
+        height: 100vh;
+        background-color: white;
+        transition: 0.6s;
+    }
+
+    .buttonss button {
+        width: 100%;
     }
 
     .main-section .equal h1 {
@@ -648,6 +663,10 @@
         grid-gap: 20px;
         justify-content: center;
         margin-top: 50px;
+    }
+
+    #faqs .questions .faq-s {
+        width: 390px;
     }
 
     #footer .main-footer {
