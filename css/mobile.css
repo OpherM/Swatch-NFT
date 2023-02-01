@@ -346,17 +346,21 @@
 }
 
 @media screen and (max-width: 679px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .main-section .equal h1 {
         font-size: 50px !important;
     }
 
     .main-div {
-        max-width: 480px;
+        max-width: 450px;
         margin: 0 auto;
     }
 
     .main-section .world .world-1 {
-        width: 600px;
+        width: 380px;
     }
 
     #alt-section {
@@ -376,7 +380,8 @@
     }
 
     .main-section .world .world-1 {
-        width: 400px;
+        width: 360px;
+        margin: auto;
     }
     
     .main-section .world .world-1 h1 {
@@ -387,6 +392,8 @@
         display: grid;
         text-align: start;
         margin-top: 20px;
+        width: 360px;
+        margin: auto;
     }
     
     .main-section .world .world-2 h2 {
@@ -397,8 +404,13 @@
         font-size: 16px;
     }
 
-    .dark .fashion {
+    .dark {
         max-width: 360px;
+        margin: auto;
+    }
+
+    .dark .fashion {
+        max-width: 340px;
         height: 165px;
     }
 
@@ -419,17 +431,17 @@
     }
 
     #alt-section-2 .dark .long-card {
-        width: 400px;
+        width: 340px;
         margin: 58px auto;
     }
 
     #alt-section-2 .dark .long-card .tailor {
-        margin-top: 30px;
-        width: 350px;
+        margin: 30px auto;
+        width: 310px;
     }
 
     #alt-section-2 .dark .long-card .tailor h2{
-        font-size: 30px;
+        font-size: 26px;
     }
     
     #alt-section-2 .dark .long-card .tailor p {
@@ -438,11 +450,28 @@
     }
 
     #alt-section-2 .dark .long-card .tight {
-        max-width: 380px;
-        margin-left: -4px;
+        max-width: 310px;
+        margin-left: 8px;
         height: 370px;
         position: relative;
         overflow-y: hidden;
+    }
+
+    #alt-section-2 .dark .long-card .tight img {
+        width: 150.5px;
+    }
+
+    #alt-section-2 .dark .long-card .tight .img-1 {
+        position: absolute;
+        bottom: 65px;
+        z-index: 0;
+        margin-left: 15px;
+    }
+    
+    #alt-section-2 .dark .long-card .tight .img-2 {
+        position: absolute;
+        top: -43px;
+        margin-left: 155px;
     }
 
     #alt-section-2 .dark .long-card .tailor button {
@@ -450,8 +479,10 @@
     }
 
     #grid-cards {
-        max-width: 650px;
+        max-width: 360px;
+        margin: auto;
     }
+
     #grid-cards .g-cards {
         margin-top: 65px;
         display: grid;
@@ -467,7 +498,7 @@
     }
     
     #grid-cards .g-cards #card div {
-        width: 340px;
+        width: 320px;
         margin: 46px auto;
     }
 
@@ -487,11 +518,20 @@
         margin-top: 20px;
     }
 
+    .black {
+        max-width: 360px;
+        margin: auto;
+    }
+
     .black .fashion {
         display: flex;
         flex-direction: column;
-        max-width: 390px;
+        max-width: 340px;
         height: 165px;
+    }
+
+    .black .fashion .star-2 {
+        width: 340px;
     }
 
     .scrolls-click {
@@ -507,19 +547,29 @@
         margin: 5px;
     }
 
+    .arrows {
+        margin: 25px;
+        margin-right: 15px;
+    }
+
     /* community */
-    #community .black-2 .black-contain {
+
+    #community .black-2 {
         max-width: 360px;
+        margin: auto;
+    }
+    #community .black-2 .black-contain {
+        max-width: 340px;
     }
     
     #community .black-2 h1 {
-        font-size: 70px;
+        font-size: 63px;
     }
     
     #community .black-2 .dis-twi .taken {
         display: flex;
-        width: 370px;
-        margin-top: -30px;
+        width: 340px;
+        margin: -30px auto;
     }
     
     #community .black-2 .dis-twi .taken p {
@@ -528,6 +578,22 @@
         font-weight: 300;
         font-size: 15px;
         line-height: 1.8;
+    }
+
+    #community .black-2 .dis-twi .socials {
+        display: grid;
+        justify-content: center;
+        margin: auto;
+        width: 310px;
+    }
+
+    #community .black-2 .dis-twi .socials .button-1 {
+        align-self: center;
+        width: inherit !important;
+    }
+
+    #community .black-2 .dis-twi .socials .button-2 {
+       display: none;
     }
 
     #faqs .questions {
@@ -549,8 +615,12 @@
         width: 100%;
     }
 
+    #faqs .questions .faq-h1 h1 {
+        font-size: 40px;
+    }
+
     .quest {
-        max-width: 400px;
+        max-width: 360px;
         padding-top: 33px;
     }
 
@@ -559,7 +629,7 @@
     }
 
     #contact .main-contact {
-        max-width: 400px;
+        max-width: 360px;
         margin: 0 auto;
     }
 
@@ -567,26 +637,17 @@
         margin: 10px;
         margin-top: 30px;
     }
-    
-    #community .black-2 .dis-twi .socials .button-1 {
-        width: 250px;
-        height: 59px;
-        background-color: inherit;
-        color: white;
-        border: 1px white solid;
-        border-radius: 12px;
-        margin-left: -1px;
-    }
-    
-    #community .black-2 .dis-twi .socials .button-2 {
-        width: 300px;
-        height: 59px;
-        border-radius: 12px;
-    }
 
     #contact .main-contact .contact-content h1 {
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 30px;
+    }
+
+    #contact .main-contact .contact-content div {
+        display: grid;
+        grid-gap: 20px;
+        justify-content: center;
+        margin-top: 50px;
     }
 
     #footer .main-footer {
@@ -594,6 +655,8 @@
        grid-template-columns: auto;
        justify-content: center;
        grid-gap: 40px;
+       max-width: 360px;
+       margin: auto;
     }
 
     #footer .main-footer .icons {

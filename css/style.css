@@ -154,9 +154,6 @@ header {
 .main-section .world {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* display: flex;
-    justify-content: space-between;
-    height: 188px; */
     margin-top: 139px;
 }
 
