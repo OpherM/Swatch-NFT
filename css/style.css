@@ -152,25 +152,16 @@ header {
 }
 
 .main-section .world {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: flex;
     justify-content: space-between;
-    height: 188px;
+    height: 188px; */
     margin-top: 139px;
-}
-
-.main-section .world .world-1 {
-    width: 586px;
 }
 
 .main-section .world .world-1 h1 {
     font-size: 81px;
-}
-
-.main-section .world .world-2 {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    width: 550px;
 }
 
 .main-section .world .world-2 h2 {
@@ -200,15 +191,11 @@ header {
 }
 
 .dark .fashion {
-    display: flex;
+    display: grid;
     max-width: 1100px;
-    height: 165px;
+    grid-template-columns: 2fr 1.5fr;
     margin: 43px auto;
     justify-content: space-between;
-}
-
-.star {
-    width: 500px;
 }
 
 .star img {
@@ -217,7 +204,6 @@ header {
 }
 
 .note {
-    width: 468px;
     height: 165px;
     text-align: start;
 }
@@ -282,23 +268,22 @@ header {
     background-color: #ffffff;
     margin: 58px auto;
     border-radius: 17.52px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-gap: 70px;
     position: relative;
     z-index: 2;
 }
 
 #alt-section-2 .dark .long-card .tailor {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     margin-top: 30px;
     margin-left: 27px;
-    width: 473px;
 }
 
 #alt-section-2 .dark .long-card .tight {
     margin-top: 30px;
-    width: 473px;
     height: 370px;
     position: relative;
     overflow-y: hidden;
@@ -318,7 +303,6 @@ header {
 #alt-section-2 .dark .long-card .tailor button {
     background-color: #f4f4f4;
     border-radius: 20px;
-    width: 459px;
     height: 84px;
     border: none;
     margin-top: 20px;
