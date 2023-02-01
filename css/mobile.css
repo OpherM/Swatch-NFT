@@ -350,6 +350,12 @@
         width: 79%;
     }
 
+    header {
+        background-color: rgb(255, 255, 255, 0.7);
+        z-index: 4;
+        backdrop-filter: blur(9px);
+    }
+
     header .nav {
         position: fixed;
         top: 0;
