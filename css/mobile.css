@@ -356,6 +356,10 @@
         backdrop-filter: blur(9px);
     }
 
+    .mobile-logo {
+        margin-right: -60px;
+    }
+
     header .nav {
         position: fixed;
         top: 0;
