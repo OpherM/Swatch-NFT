@@ -136,8 +136,20 @@ accordionContent.forEach((item, index) => {
             item.querySelector('i').classList.replace("fa-minus", "fa-plus");
     }
         console.log(description)
+    removeItem(index);
     })
-
 })
+
+function removeItem(index1) {
+    accordionContent.forEach((item2, index2) => {
+        if(index1 != index2) {
+            item2.classList.remove('open');
+
+            let des = item2.querySelector('.description');
+            des.style.height = '0px';
+            item2.querySelector('i').classList.replace("fa-minus", "fa-plus");
+        }
+    })
+}
 
 

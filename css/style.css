@@ -562,7 +562,7 @@ header {
 
 #faqs {
     margin-top: 64px;
-    height: 518px;
+    /* height: 518px; */
 }
 
 #faqs .questions {
@@ -582,39 +582,28 @@ header {
 }
 
 .accordion-content {
-    border-bottom: 0.5px solid #626874;
+    border-top: 0.2px solid #D4D5D4;
     overflow: hidden;
+    max-width: 650px;
+}
+
+.accordion-content.open {
+    padding-bottom: 15px;
 }
 
 .accordion-content .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;
+    padding: 35px 15px;
+    transition: all 0.5s linear;
+    font-size: 24px;
 }
 
 .accordion-content .description {
     padding: 0 15px;
     text-align: start;
     height: 0px;
-    transition: all 0.2s linear;
-}
-
-.quest {
-    height: 102.47px;
-    width: 600px;
-    padding-top: 33px;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-between;
-    line-height: 36px;
-    color: #212529;
-    margin: auto 0;
-    border-top: 1px solid #D4D5D4;
-}
-
-.plus {
-    width: 26px;
-    height: 26px;
+    transition: all 0.07s linear;
 }
 
 #contact .main-contact {
@@ -624,7 +613,7 @@ header {
 
 #contact .main-contact .contact-content p {
     font-size: 20px;
-    margin-top: 45px;
+    margin-top: 65px;
 }
 
 #contact .main-contact .contact-content h1 {
