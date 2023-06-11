@@ -581,6 +581,24 @@ header {
     width: 714px;
 }
 
+.accordion-content {
+    border-bottom: 0.5px solid #626874;
+    overflow: hidden;
+}
+
+.accordion-content .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.accordion-content .description {
+    padding: 0 15px;
+    text-align: start;
+    height: 0px;
+    transition: all 0.2s linear;
+}
+
 .quest {
     height: 102.47px;
     width: 600px;
